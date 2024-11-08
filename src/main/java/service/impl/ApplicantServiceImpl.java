@@ -8,8 +8,8 @@ public class ApplicantServiceImpl implements ApplicantService {
     public void displayApplicantData(Applicants applicants) {
         System.out.println("Full Name : " +
                 applicants.getName() + "\n" +
-                "Age : " + applicants.getAge() + "\n" +
-                "Gender : " + applicants.getGender());
+                "Gender : " + applicants.getGender() + "\n" +
+                "Age : " + applicants.getAge());
     }
 
     @Override

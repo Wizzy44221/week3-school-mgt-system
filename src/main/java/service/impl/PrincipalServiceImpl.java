@@ -7,10 +7,10 @@ public class PrincipalServiceImpl implements PrincipalService {
 
 
     @Override
-    public void display(@org.jetbrains.annotations.NotNull Principal principal) {
+    public void display(Principal principal) {
         System.out.println("Full Name : " +
                 principal.getName() + "\n" +
-                "Age : " + principal.getAge() + "\n" +
-                "Gender : " + principal.getGender());
+                "Gender : " + principal.getGender() + "\n" +
+                "Age : " + principal.getAge());
     }
     }

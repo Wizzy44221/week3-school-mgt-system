@@ -5,10 +5,8 @@ import enums.Gender;
 
 public class Teacher extends Person {
 
-    public Teacher() {
-    }
 
-    public Teacher(String name, int age, Gender gender) {
-        super(name, age, gender);
+    public Teacher(String name, Gender gender, int age, int Id) {
+        super(name, gender, age, Id);
     }
 }
